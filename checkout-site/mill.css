@@ -1,0 +1,50 @@
+﻿/*
+Files: pc.html, mill.css, oform.css, formsubmit.js, modernizr-1.5.js.
+*/
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Quicksand-Regular.otf);
+}
+
+body {
+	background-color: #efefef;
+	font-family:myFirstFont;
+}
+
+img {
+	border-radius: 8px;
+}
+
+div.content { 
+width: 960px;
+height: 900px;
+margin:0 auto;
+background-color: white;
+border-radius: 15px;
+padding: 20px; 
+position: relative;
+}
+
+div.userInfo {
+	position: absolute;
+	top: 24.5%;
+	left: 60%;
+    border-radius: 5px;
+	width: 350px;
+}
+
+div.pcInfo {
+	position: absolute;
+	left: 5%;
+	top: 25%;
+    border-radius: 5px;
+	width: 350px;
+}
+
+div.cusButtons{
+	position: absolute;
+	left: 46%;	
+	top: 800px;
+	width: 550px;
+}
